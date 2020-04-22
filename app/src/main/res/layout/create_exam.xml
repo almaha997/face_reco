@@ -7,8 +7,6 @@
     android:layout_height="match_parent"
     android:background="#95C8D8"
     tools:ignore="LabelFor"
-
-
     >
 
     <EditText

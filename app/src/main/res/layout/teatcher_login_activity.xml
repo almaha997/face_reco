@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#95C8D8"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:ignore="LabelFor" >
 
     <EditText
         android:id="@+id/T_id"
@@ -24,7 +25,8 @@
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.264"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/T_login_btn"
@@ -55,6 +57,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/password_et"
+        android:autofillHints="@string/password_et"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,4 +66,4 @@
         app:layout_constraintTop_toBottomOf="@+id/T_id"
         app:layout_constraintVertical_bias="0.088" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

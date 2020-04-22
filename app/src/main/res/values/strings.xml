@@ -4,11 +4,26 @@
     <string name="S_button_name">طالب</string>
     <string name="id_et">رقم الهوية</string>
     <string name="T_name">أسم المعلم</string>
+    <string name="S_name">أسم الطالب</string>
     <string name="login_btn"> دخول</string>
     <string name="signup_btn">تسجيل</string>
     <string name="password_et">كلمة المرور</string>
     <string name="faceid_btn">مسح الوجة</string>
+    <string name="insert_q">أدخل السؤال</string>
+    <string name="insert_a">أدخل الإجابة </string>
+    <string name="insert_c">أدخل الخيار الاول </string>
+    <string name="q1">السؤال الاول</string>
+    <string name="q2">السؤال الثاني</string>
+    <string name="Q">السؤال</string>
+    <string name="A">أدخل الإجابة </string>
+    <string name="classes">  الصفوف </string>
+    <string name="result">  النتائج </string>
+    <string name="exams">  الإختبارات </string>
+    <string name="enter_exam">  دخول الإختبار </string>
 
+    <string name="create_exam">  إنشاء إختبار </string>
+    <string name="d">   </string>
+    <string name="face_print">بصمة الوجه</string>
 
 
 </resources>

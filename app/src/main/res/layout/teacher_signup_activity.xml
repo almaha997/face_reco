@@ -8,26 +8,6 @@
     tools:ignore="LabelFor">
 
     <EditText
-        android:id="@+id/T_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:autofillHints=" "
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/id_et"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
-
-    <EditText
         android:id="@+id/T_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,18 +22,36 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/T_id"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.09" />
+
+    <EditText
+        android:id="@+id/T_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=" "
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/id_et"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
 
     <Button
         android:id="@+id/T_signup"
-        android:autofillHints=" "
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:autofillHints=" "
         android:background="@drawable/btn_shape"
         android:padding="8dp"
         android:text="@string/signup_btn"
@@ -65,40 +63,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/T_pass"
-        app:layout_constraintVertical_bias="0.791" />
-
-    <TextView
-        android:id="@+id/face_print_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="204dp"
-        android:text="@string/face_print"
-        android:textColor="#000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/S_face_id"
-        app:layout_constraintVertical_bias="0.128" />
-
-    <Button
-        android:id="@+id/Tface_id"
-        android:layout_width="130dp"
-        android:layout_height="132dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:autofillHints=" "
-        android:background="@drawable/face"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+        app:layout_constraintVertical_bias="0.473" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,31 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b859d7d-1be6-47f7-9b36-092da57c84bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherCreateExamActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_action_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentLoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentLoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherHomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherHomeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherLoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherLoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherSignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherSignUpActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/create_exam.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/create_exam.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/student_exam_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/student_exam_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/student_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/student_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/teacher_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/teacher_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/teatcher_login_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/teatcher_login_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +40,7 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="LGH870DS8517b507" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -85,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="2036">
               <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,24 +76,6 @@
                 <element signature="e#1544#1545#0" expanded="true" />
                 <element signature="method#resize#0;class#StudentHomeActivity#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentLoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -128,40 +90,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="386">
+              <caret line="179" column="5" lean-forward="true" selection-start-line="118" selection-end-line="180" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1446#1624#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="method#takeSnapShots#0;class#StudentExamActivity#0" />
+                <element signature="e#2464#2802#0" expanded="true" />
+                <element signature="e#2801#2802#0" expanded="true" />
+                <element signature="method#resize#0;class#StudentExamActivity#0" />
+                <element signature="class#SendImageTask#0;class#StudentExamActivity#0" />
+                <element signature="e#3767#3801#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="205">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+              <folding>
+                <element signature="e#715#733#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="-134">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding>
+                <element signature="e#2038#2069#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherHomeActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="163">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <element signature="e#820#841#0" expanded="true" />
+                <element signature="e#1569#1584#0" expanded="true" />
+                <element signature="e#2233#2253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_exam_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/api.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -217,24 +218,25 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/btn_shape.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/btn_shape_square.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/create_exam.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/teatcher_login_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/student_exam_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/student_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/teacher_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentLoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherCreateExamActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherHomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherLoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherSignUpActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/api.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml" />
       </list>
     </option>
   </component>
@@ -299,6 +301,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_27" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-04-22T05:54:14.923Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="asset" value="rO0ABXNyADxkZS5tcHJlbmdlbWFubi5pbnRlbGxpai5wbHVnaW4uYW5kcm9pZGljb25zLm1vZGVsLkltYWdlQXNzZXQl990GqIfF7gIABkwACGNhdGVnb3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAGY29sb3JzdAAQTGphdmEvdXRpbC9MaXN0O0wABG5hbWVxAH4AAUwABHBhY2txAH4AAUwAC3Jlc29sdXRpb25zcQB+AAJMAAVzaXplc3EAfgACeHB0AANhbGxzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAADncEAAAADnQABWJsYWNrdAAJYmx1ZV9kYXJrdAAKYmx1ZV9saWdodHQACmdyZWVuX2Rhcmt0AAtncmVlbl9saWdodHQACWhvbG9fZGFya3QACmhvbG9fbGlnaHR0AAtwdXJwbGVfZGFya3QADHB1cnBsZV9saWdodHQACHJlZF9kYXJrdAAJcmVkX2xpZ2h0dAAFd2hpdGV0AAt5ZWxsb3dfZGFya3QADHllbGxvd19saWdodHh0AA1pY19hY3Rpb25fYWRkdAANYW5kcm9pZF9pY29uc3NxAH4ABQAAAAV3BAAAAAV+cgA8ZGUubXByZW5nZW1hbm4uaW50ZWxsaWoucGx1Z2luLmFuZHJvaWRpY29ucy5tb2RlbC5SZXNvbHV0aW9uAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAESERQSX5xAH4AGHQABExEUEl+cQB+ABh0AARNRFBJfnEAfgAYdAAFWEhEUEl+cQB+ABh0AAZYWEhEUEl4c3EAfgAFAAAAAXcEAAAAAXQABDE4ZHB4" />
@@ -428,7 +432,7 @@
     <layout>
       <window_info id="Resources Explorer" order="0" />
       <window_info id="Captures" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1738255" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1738255" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Build Variants" order="5" side_tool="true" />
@@ -450,7 +454,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.3295302" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
@@ -520,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -557,29 +554,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="67" column="53" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="67" selection-end-column="53" />
-          <folding>
-            <element signature="e#2698#2718#0" expanded="true" />
-            <element signature="e#3358#3378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_exam_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding>
-            <element signature="e#729#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_login_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -603,10 +577,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_home.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentLoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -659,20 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherCreateExamActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -705,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="2036">
           <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -715,6 +664,79 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherCreateExamActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_exam_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding>
+            <element signature="e#715#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="179" column="5" lean-forward="true" selection-start-line="118" selection-end-line="180" />
+          <folding>
+            <element signature="e#1446#1624#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="method#takeSnapShots#0;class#StudentExamActivity#0" />
+            <element signature="e#2464#2802#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <element signature="method#resize#0;class#StudentExamActivity#0" />
+            <element signature="class#SendImageTask#0;class#StudentExamActivity#0" />
+            <element signature="e#3767#3801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherExamActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#2038#2069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/teacher_signup_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="e#820#841#0" expanded="true" />
+            <element signature="e#1569#1584#0" expanded="true" />
+            <element signature="e#2233#2253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_exam_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
 </project>

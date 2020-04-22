@@ -26,6 +26,7 @@
     <string name="face_print">بصمة الوجه</string>
     <string name="add_question">اضافة سؤال</string>
     <string name="submit">ارسال</string>
+    <string name="warnings">تنبيهات</string>
 
 
 </resources>

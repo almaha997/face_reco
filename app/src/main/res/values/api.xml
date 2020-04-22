@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="api_send_image">http://192.168.0.107:3000/sendImage</string>
+    <string name="api_send_image_reg">http://192.168.0.107:3000/sendImageReg</string>
     <string name="api_get_res">http://192.168.0.107:3000/getRes</string>
 </resources>

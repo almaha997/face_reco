@@ -64,6 +64,21 @@
         app:layout_constraintTop_toBottomOf="@+id/S_face_id"
         app:layout_constraintVertical_bias="0.558" />
 
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
     <Button
         android:id="@+id/S_face_id"
         android:layout_width="130dp"
@@ -86,8 +101,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/face_print"
-        android:textSize="20sp"
         android:textColor="#000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -187,4 +187,11 @@ public class StudentExamActivity extends AppCompatActivity {
         Intent intent = new Intent(getBaseContext(), StudentHomeActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        handler.removeCallbacks(runnable);
+
+    }
 }

@@ -14,6 +14,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -37,14 +38,14 @@ import java.util.List;
 
 public class StudentHomeActivity extends AppCompatActivity {
     Button enterExam;
-    Camera camera;
-
+    ProgressBar progressBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.student_home);
         getSupportActionBar().hide();
         enterExam = findViewById(R.id.exam_btn);
+        progressBar = findViewById(R.id.progress_home);
         enterExam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,6 +82,7 @@ public class StudentHomeActivity extends AppCompatActivity {
             if (success == true) {
 
                 Log.e("tag", "task finished ");
+                progressBar.setVisibility(View.GONE);
                 Intent intent = new Intent(getBaseContext(), StudentExamActivity.class);
                 startActivity(intent);
 
@@ -145,6 +147,7 @@ public class StudentHomeActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        progressBar.setVisibility(View.VISIBLE);
         Bundle extras = data.getExtras();
         Bitmap imageBitmap = (Bitmap) extras.get("data");
         imageBitmap = rotateImage(imageBitmap, 270);

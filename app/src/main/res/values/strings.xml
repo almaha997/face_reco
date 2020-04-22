@@ -24,6 +24,8 @@
     <string name="create_exam">  إنشاء إختبار </string>
     <string name="d">   </string>
     <string name="face_print">بصمة الوجه</string>
+    <string name="add_question">اضافة سؤال</string>
+    <string name="submit">ارسال</string>
 
 
 </resources>

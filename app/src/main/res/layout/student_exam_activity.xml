@@ -45,4 +45,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.459" />
+
+    <Button
+        android:id="@+id/S_exam_submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="120dp"
+        android:autofillHints=" "
+        android:background="@drawable/btn_shape"
+        android:padding="8dp"
+        android:text="@string/submit"
+        android:textColor="#8D000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/T_pass"
+        app:layout_constraintVertical_bias="0.791" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,7 @@ public class TeacherExamActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.teacher_signup_activity);
+        setContentView(R.layout.teacher_exam_activity);
+        getSupportActionBar().hide();
     }
 }

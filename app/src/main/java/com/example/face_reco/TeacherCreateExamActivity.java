@@ -7,18 +7,18 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class StudentSignUpActivity extends AppCompatActivity {
-    Button signUpBtn;
+public class TeacherCreateExamActivity extends AppCompatActivity {
+    Button saveBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.student_signup_activity);
+        setContentView(R.layout.create_exam);
         getSupportActionBar().hide();
-        signUpBtn = findViewById(R.id.S_signup);
-        signUpBtn.setOnClickListener(new View.OnClickListener() {
+        saveBtn = findViewById(R.id.T_save_exam);
+        saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), StudentLoginActivity.class);
+                Intent intent = new Intent(getBaseContext(), TeacherHomeActivity.class);
                 startActivity(intent);
             }
         });

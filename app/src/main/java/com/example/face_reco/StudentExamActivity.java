@@ -87,7 +87,7 @@ public class StudentExamActivity extends AppCompatActivity {
             @Override
             public void onPictureTaken(byte[] data, Camera camera) {
                 Bitmap bitmap = BitmapFactory.decodeByteArray(data , 0, data.length);
-                bitmap = resize(bitmap, 1000, 800);
+                bitmap = resize(bitmap, 800, 600);
                 new SendImageTask().execute(bitmap);
 
 

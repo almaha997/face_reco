@@ -47,7 +47,7 @@ public class TeacherExamActivity extends AppCompatActivity {
         protected void onPostExecute(final Boolean success) {
             if (success == true) {
                 Log.e("tag", "task finished ");
-
+                warningsList.clear();
             } else {
                 //Let user know login has failed
                 String warning = "تنبيه: اختبار حسين تم الغائه بسبب احتمالية الغش";

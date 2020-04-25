@@ -188,10 +188,4 @@ public class StudentExamActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        handler.removeCallbacks(runnable);
-
-    }
 }

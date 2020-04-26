@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
+import android.graphics.Matrix;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.os.AsyncTask;
@@ -88,6 +89,7 @@ public class StudentExamActivity extends AppCompatActivity {
             public void onPictureTaken(byte[] data, Camera camera) {
                 Bitmap bitmap = BitmapFactory.decodeByteArray(data , 0, data.length);
                 bitmap = resize(bitmap, 800, 600);
+//                bitmap = rotateImage(bitmap, 270);
                 new SendImageTask().execute(bitmap);
 
 
@@ -186,6 +188,12 @@ public class StudentExamActivity extends AppCompatActivity {
         handler.removeCallbacks(runnable);
         Intent intent = new Intent(getBaseContext(), StudentHomeActivity.class);
         startActivity(intent);
+    }
+    public static Bitmap rotateImage(Bitmap source, float angle) {
+        Matrix matrix = new Matrix();
+        matrix.postRotate(angle);
+        return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(),
+                matrix, true);
     }
 
 }

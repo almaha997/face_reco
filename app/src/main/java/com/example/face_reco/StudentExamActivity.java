@@ -1,6 +1,7 @@
 package com.example.face_reco;
 
 
+import android.Manifest;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,6 +17,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -37,11 +39,16 @@ public class StudentExamActivity extends AppCompatActivity {
     Camera camera;
     Handler handler;
     Runnable runnable;
+    SurfaceTexture surfaceTexture;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.student_exam_activity);
         getSupportActionBar().hide();
+        ActivityCompat.requestPermissions(StudentExamActivity.this,
+                new String[]{Manifest.permission.CAMERA},
+                1);
+        surfaceTexture = new SurfaceTexture(10);
         handler = new Handler();
         final int delay = 10000; //milliseconds
         runnable = new Runnable() {
@@ -71,7 +78,7 @@ public class StudentExamActivity extends AppCompatActivity {
         }
 //            camera = Camera.open();
         try {
-            camera.setPreviewTexture(new SurfaceTexture(10));
+            camera.setPreviewTexture(surfaceTexture);
         } catch (IOException e1) {
         }
 
@@ -89,7 +96,7 @@ public class StudentExamActivity extends AppCompatActivity {
             public void onPictureTaken(byte[] data, Camera camera) {
                 Bitmap bitmap = BitmapFactory.decodeByteArray(data , 0, data.length);
                 bitmap = resize(bitmap, 800, 600);
-//                bitmap = rotateImage(bitmap, 270);
+                bitmap = rotateImage(bitmap, 270);
                 new SendImageTask().execute(bitmap);
 
 
@@ -181,14 +188,14 @@ public class StudentExamActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onUserLeaveHint() {
-        super.onUserLeaveHint();
-        Log.e("tag", "Activity Minimized");
-        handler.removeCallbacks(runnable);
-        Intent intent = new Intent(getBaseContext(), StudentHomeActivity.class);
-        startActivity(intent);
-    }
+//    @Override
+//    protected void onUserLeaveHint() {
+//        super.onUserLeaveHint();
+//        Log.e("tag", "Activity Minimized");
+//        handler.removeCallbacks(runnable);
+//        Intent intent = new Intent(getBaseContext(), StudentHomeActivity.class);
+//        startActivity(intent);
+//    }
     public static Bitmap rotateImage(Bitmap source, float angle) {
         Matrix matrix = new Matrix();
         matrix.postRotate(angle);

@@ -24,6 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b859d7d-1be6-47f7-9b36-092da57c84bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/api.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +36,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="HT53KYJ04229" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="27fbd581fc217ece" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -86,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+            <state relative-caret-position="289">
+              <caret line="197" column="7" lean-forward="true" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
               <folding>
                 <element signature="e#2873#3210#0" expanded="true" />
                 <element signature="e#3209#3210#0" expanded="true" />
@@ -103,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="496">
               <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/api.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="76" />
+            <state relative-caret-position="110">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -139,24 +141,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="156" column="57" lean-forward="true" selection-start-line="156" selection-start-column="57" selection-end-line="156" selection-end-column="57" />
+            <state relative-caret-position="31">
+              <caret line="106" column="65" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="65" />
               <folding>
                 <element signature="method#resize#0;class#StudentSignUpActivity#0" />
                 <element signature="e#3953#3991#0" expanded="true" />
-                <element signature="method#openCamera#0;class#StudentSignUpActivity#0" />
                 <element signature="method#rotateImage#0;class#StudentSignUpActivity#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="132">
+              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
               <folding>
                 <element signature="e#738#756#0" expanded="true" />
               </folding>
@@ -221,9 +222,9 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/api.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java" />
       </list>
     </option>
   </component>
@@ -411,6 +412,15 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
@@ -425,12 +435,12 @@
       <window_info id="Designer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Floobits" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4986577" weight="0.4957265" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49798658" weight="0.4957265" />
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.4986577" weight="0.7934473" />
-      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32905984" />
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5013423" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50201344" side_tool="true" weight="0.4957265" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49798658" weight="0.37321937" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32905984" />
@@ -675,19 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#resize#0;class#StudentHomeActivity#0" />
-            <element signature="method#openCamera#0;class#StudentHomeActivity#0" />
-            <element signature="method#rotateImage#0;class#StudentHomeActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/TeacherSignUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -700,43 +697,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentSignUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="156" column="57" lean-forward="true" selection-start-line="156" selection-start-column="57" selection-end-line="156" selection-end-column="57" />
+        <state relative-caret-position="31">
+          <caret line="106" column="65" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="65" />
           <folding>
             <element signature="method#resize#0;class#StudentSignUpActivity#0" />
             <element signature="e#3953#3991#0" expanded="true" />
-            <element signature="method#openCamera#0;class#StudentSignUpActivity#0" />
             <element signature="method#rotateImage#0;class#StudentSignUpActivity#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
-          <folding>
-            <element signature="e#2873#3210#0" expanded="true" />
-            <element signature="e#3209#3210#0" expanded="true" />
-            <element signature="method#resize#0;class#StudentExamActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="132">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
           <folding>
             <element signature="e#738#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentHomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="153" column="47" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#resize#0;class#StudentHomeActivity#0" />
+            <element signature="method#openCamera#0;class#StudentHomeActivity#0" />
+            <element signature="method#rotateImage#0;class#StudentHomeActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/face_reco/StudentExamActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="197" column="7" lean-forward="true" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
+          <folding>
+            <element signature="e#2873#3210#0" expanded="true" />
+            <element signature="e#3209#3210#0" expanded="true" />
+            <element signature="method#resize#0;class#StudentExamActivity#0" />
           </folding>
         </state>
       </provider>

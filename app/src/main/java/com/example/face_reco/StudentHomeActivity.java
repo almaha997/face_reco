@@ -151,7 +151,7 @@ public class StudentHomeActivity extends AppCompatActivity {
         Bundle extras = data.getExtras();
         Bitmap imageBitmap = (Bitmap) extras.get("data");
         imageBitmap = rotateImage(imageBitmap, 270);
-        imageBitmap = resize(imageBitmap, 800, 600);
+        imageBitmap = resize(imageBitmap, 400, 600);
         new SendImageTask().execute(imageBitmap);
     }
 
